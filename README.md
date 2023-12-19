@@ -19,14 +19,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
 
-- Resource Setup
-- ICMP Traffic Analysis
-- Exploring Various Protocols
-- Lab Conclusion and Cleanup
-
-<h2>Actions and Observations</h2>
+<h2>Resource Setup</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -37,6 +31,7 @@ In an Azure lab, I skillfully managed resources by creating a dedicated Resource
 </p>
 <br />
 
+<h2>ICMP Traffic Analysis</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -46,6 +41,7 @@ The second phase focused on ICMP traffic analysis. Leveraging Remote Desktop, I 
 </p>
 <br />
 
+<h2>Exploring Various Protocols</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -55,6 +51,7 @@ The third segment delved into SSH, DHCP, DNS, and RDP traffic. Wireshark was use
 </p>
 <br />
 
+<h2>Lab Conclusion and Cleanup</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
