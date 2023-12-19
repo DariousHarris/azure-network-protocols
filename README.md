@@ -6,10 +6,6 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -25,10 +21,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Resource Setup
+- ICMP Traffic Analysis
+- Exploring Various Protocols
+- Lab Conclusion and Cleanup
 
 <h2>Actions and Observations</h2>
 
@@ -36,7 +32,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In an Azure lab, I skillfully managed resources by creating a dedicated Resource Group, deploying Windows 10 and Ubuntu VMs, and configuring networking components like Virtual Networks and Subnets. I showcased my proficiency by actively observing the virtual network using Azure's Network Watcher.
+
 </p>
 <br />
 
@@ -44,7 +41,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The second phase focused on ICMP traffic analysis. Leveraging Remote Desktop, I monitored ping requests from the Windows 10 VM to the Ubuntu VM using Wireshark. Practical exploration of Network Security Groups involved disabling and re-enabling ICMP traffic, offering valuable insights into network security configurations.
+
 </p>
 <br />
 
@@ -52,6 +50,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The third segment delved into SSH, DHCP, DNS, and RDP traffic. Wireshark was used to analyze SSH traffic as I initiated a connection to the Ubuntu VM. I explored DHCP operations by attempting to renew the Windows 10 VM's IP address, and DNS traffic was scrutinized through nslookup queries. The lab concluded with an examination of the constant stream inherent in RDP traffic.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Culminating the lab, I reflected on insights gained from each protocol analysis, ensuring responsible resource management. The meticulous cleanup process involved terminating the Remote Desktop connection and deleting the Azure Resource Group. Verification of Resource Group deletion marked the successful completion of this complex Azure network analysis lab.
+
 </p>
 <br />
