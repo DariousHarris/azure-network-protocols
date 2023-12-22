@@ -23,7 +23,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Resource Setup</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/odJmBlf.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In an Azure lab, I skillfully managed resources by creating a dedicated Resource Group, deploying Windows 10 and Ubuntu VMs, and configuring networking components like Virtual Networks and Subnets. I showcased my proficiency by actively observing the virtual network using Azure's Network Watcher.
@@ -33,7 +33,7 @@ In an Azure lab, I skillfully managed resources by creating a dedicated Resource
 
 <h2>ICMP Traffic Analysis</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VApNZWN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The second phase focused on ICMP traffic analysis. Leveraging Remote Desktop, I monitored ping requests from the Windows 10 VM to the Ubuntu VM using Wireshark. Practical exploration of Network Security Groups involved disabling and re-enabling ICMP traffic, offering valuable insights into network security configurations.
@@ -43,7 +43,7 @@ The second phase focused on ICMP traffic analysis. Leveraging Remote Desktop, I 
 
 <h2>Exploring Various Protocols</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yDDZs5d.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The third segment delved into SSH, DHCP, DNS, and RDP traffic. Wireshark was used to analyze SSH traffic as I initiated a connection to the Ubuntu VM. I explored DHCP operations by attempting to renew the Windows 10 VM's IP address, and DNS traffic was scrutinized through nslookup queries. The lab concluded with an examination of the constant stream inherent in RDP traffic.
@@ -53,7 +53,7 @@ The third segment delved into SSH, DHCP, DNS, and RDP traffic. Wireshark was use
 
 <h2>Lab Conclusion and Cleanup</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iYud2Qt.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Culminating the lab, I reflected on insights gained from each protocol analysis, ensuring responsible resource management. The meticulous cleanup process involved terminating the Remote Desktop connection and deleting the Azure Resource Group. Verification of Resource Group deletion marked the successful completion of this complex Azure network analysis lab.
